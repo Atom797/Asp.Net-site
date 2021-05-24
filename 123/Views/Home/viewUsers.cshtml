@@ -1,0 +1,72 @@
+﻿@model IEnumerable<_123.Models.UsersModel>
+
+@{
+    ViewBag.Title = "Пользователи";
+}
+
+<style>
+    body {
+        background: url(../beanstal.png);
+    }
+</style>
+<h2 style="font-family: 'Indie Flower', cursive; text-align:center;">Объявления</h2>
+<br>
+<h5 >Найдите объявление в интересующем вас городе или оставьте свою заявку:</h5>
+<button class="btn btn-puk" onclick="window.location.href='/Home/Poisk'">Поиск по городу</button>
+<button class="btn btn-puk" onclick="window.location.href='/Home/Request'">Оставить заявку</button>
+
+<br><br>
+<h2 style="font-family: 'Indie Flower', cursive;">Список объявлений:</h2>
+<table class="table">
+    <tr>
+        <th>
+            Email клиента
+        </th>
+        <th>
+            Номер клиента
+        </th>
+        <th>
+            Имя клиента
+        </th>
+        <th>
+            Фамилия клиента
+        </th>
+        <th>
+            Возраст клиента
+        </th>
+        <th>
+           Город клиента
+        </th>
+        <th>
+            Объявление клиента
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.surname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.age)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.city)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.announcement)
+            </td>
+        </tr>
+    }
+
+</table>

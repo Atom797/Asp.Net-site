@@ -1,0 +1,60 @@
+﻿@model IEnumerable<_123.Models.PlacesModel>
+
+@{
+    ViewBag.Title = "listPlaces";
+}
+
+    <style>
+        body {
+            background: url(../beanstal.png);
+        }
+    </style>
+
+    <h2 style="font-family: 'Indie Flower', cursive; text-align:center;">Интересные места России</h2>
+
+
+    <br>
+    <button class="btn btn-puk" onclick="window.location.href='/Home/Places'">Добавить интересное место</button>
+<br>
+<br>
+<form asp-controller="HomeController" asp-action="listPlaces">
+    <p>
+        Введите название города: <input type="text" name="city">
+        <input class="btn btn-puk" type="submit" value="Поиск" />
+    </p>
+</form>
+
+
+
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.city)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.place)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.description)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.city)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.place)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.description)
+            </td>
+        </tr>
+    }
+
+</table>

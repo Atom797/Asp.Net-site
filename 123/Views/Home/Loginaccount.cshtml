@@ -1,0 +1,97 @@
+﻿@model IEnumerable<_123.Models.UsersModel>
+@{
+    ViewBag.Title = "Loginaccount";
+}
+
+    <style>
+        body {
+            background: url(../beanstal.png);
+        }
+    </style>
+
+<h2 style="font-family: 'Indie Flower', cursive; text-align:center;">
+    Ваш личный аккаунт
+</h2>
+
+
+
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        @foreach (var item in Model)
+        {
+            <dt>
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => item.Email)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Phone)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => item.Phone)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => item.name)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.surname)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => item.surname)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.age)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => item.age)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.city)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => item.city)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.announcement)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => item.announcement)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Password)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => item.Password)
+            </dd>
+        }
+    </dl>
+</div>
+<button class="btn btn-puk" onclick="window.location.href='/Home/viewRequest'">Посмотреть заявки</button>
+
+<div class="btn btn-puk">
+    @Html.ActionLink("Удалить свой аккаунт", "Delete")
+</div>
+<br>
+<br>
+<button class="btn btn-puk" onclick="window.location.href='/Home/Index'">Выход</button>

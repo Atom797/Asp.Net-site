@@ -1,0 +1,57 @@
+﻿.btn-puk {
+    background-color: #aba3a3;
+}
+
+    .btn-puk:focus,
+    .btn-puk.focus {
+        color: #fff;
+        background-color: #286090;
+        border-color: #122b40;
+    }
+
+btn-puk:hover {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+
+.btn-puk:active,
+.btn-puk.active,
+.open > .dropdown-toggle.btn-puk {
+    color: #fff;
+    background-color: #286090;
+    background-image: none;
+    border-color: #204d74;
+}
+
+    .btn-puk:active:hover,
+    .btn-puk.active:hover,
+    .open > .dropdown-toggle.btn-puk:hover,
+    .btn-puk:active:focus,
+    .btn-puk.active:focus,
+    .open > .dropdown-toggle.btn-puk:focus,
+    .btn-puk:active.focus,
+    .btn-puk.active.focus,
+    .open > .dropdown-toggle.btn-puk.focus {
+        color: #fff;
+        background-color: #204d74;
+        border-color: #122b40;
+    }
+
+.btn-puk.disabled:hover,
+.btn-puk[disabled]:hover,
+fieldset[disabled] .btn-puk:hover,
+.btn-puk.disabled:focus,
+.btn-puk[disabled]:focus,
+fieldset[disabled] .btn-puk:focus,
+.btn-puk.disabled.focus,
+.btn-puk[disabled].focus,
+fieldset[disabled] .btn-puk.focus {
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.btn-puk .badge {
+    color: #337ab7;
+    background-color: #fff;
+}

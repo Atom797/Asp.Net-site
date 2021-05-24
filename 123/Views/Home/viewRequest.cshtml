@@ -1,0 +1,69 @@
+﻿@model IEnumerable<_123.Models.RequestModel>
+
+@{
+    ViewBag.Title = "viewRequest";
+}
+
+    <style>
+        body {
+            background: url(../beanstal.png);
+        }
+    </style>
+
+<h2 style="font-family: 'Indie Flower', cursive; text-align:center;">Заявки адрессованные к вашему объявлению</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            Ваш Email
+        </th>
+        <th>
+            Email клиента
+        </th>
+        <th>
+            Телефон клиента
+        </th>
+        <th>
+            Имя клиента
+        </th>
+        <th>
+            Фамилия клиента
+        </th>
+        <th>
+            Возраст клиента
+        </th>
+        <th>
+            Заявка клиента
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.annemail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.phone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.surname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.age)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.request)
+        </td>
+    </tr>
+}
+
+</table>
+<button class="btn btn-puk" onclick="window.location.href='/Home/Loginaccount'">Назад</button>

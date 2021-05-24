@@ -1,0 +1,25 @@
+C:\Users\Admin\source\repos\123\DataLibrary\bin\Debug\DataLibrary.dll
+C:\Users\Admin\source\repos\123\DataLibrary\bin\Debug\DataLibrary.pdb
+C:\Users\Admin\source\repos\123\DataLibrary\bin\Debug\Dapper.dll
+C:\Users\Admin\source\repos\123\DataLibrary\bin\Debug\Drapper.dll
+C:\Users\Admin\source\repos\123\DataLibrary\bin\Debug\Drapper.Validation.dll
+C:\Users\Admin\source\repos\123\DataLibrary\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\source\repos\123\DataLibrary\bin\Debug\Dapper.xml
+C:\Users\Admin\source\repos\123\DataLibrary\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\source\repos\123\DataLibrary\obj\Debug\DataLibrary.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\123\DataLibrary\obj\Debug\DataLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\123\DataLibrary\obj\Debug\DataLibrary.csproj.CopyComplete
+C:\Users\Admin\source\repos\123\DataLibrary\obj\Debug\DataLibrary.dll
+C:\Users\Admin\source\repos\123\DataLibrary\obj\Debug\DataLibrary.pdb
+C:\Users\Admin\Desktop\Новая папка (3)\123\DataLibrary\bin\Debug\DataLibrary.dll
+C:\Users\Admin\Desktop\Новая папка (3)\123\DataLibrary\bin\Debug\DataLibrary.pdb
+C:\Users\Admin\Desktop\Новая папка (3)\123\DataLibrary\bin\Debug\Dapper.dll
+C:\Users\Admin\Desktop\Новая папка (3)\123\DataLibrary\bin\Debug\Drapper.dll
+C:\Users\Admin\Desktop\Новая папка (3)\123\DataLibrary\bin\Debug\Drapper.Validation.dll
+C:\Users\Admin\Desktop\Новая папка (3)\123\DataLibrary\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\Новая папка (3)\123\DataLibrary\bin\Debug\Dapper.xml
+C:\Users\Admin\Desktop\Новая папка (3)\123\DataLibrary\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\Новая папка (3)\123\DataLibrary\obj\Debug\DataLibrary.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Новая папка (3)\123\DataLibrary\obj\Debug\DataLibrary.csproj.CopyComplete
+C:\Users\Admin\Desktop\Новая папка (3)\123\DataLibrary\obj\Debug\DataLibrary.dll
+C:\Users\Admin\Desktop\Новая папка (3)\123\DataLibrary\obj\Debug\DataLibrary.pdb
